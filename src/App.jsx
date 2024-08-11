@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import OAuthCallback from './OAuthCallback';
 import ProgramList from './ProgramList';
 import MemberPrograms from './MemberPrograms';
+import ProtectedDataComponent from './ProtectedDataComponent';
+import { authorizeUser } from './api';
 
 function App() {
     return (
